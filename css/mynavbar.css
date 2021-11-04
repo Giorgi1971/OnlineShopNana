@@ -1,0 +1,39 @@
+#gnav{
+    color: orange;
+}
+
+.notify{
+    position: relative;
+    top: -10px;
+    right: 7px;
+}
+
+
+.gnavbrend{
+    position:absolute;
+    top: 10px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: brown;
+    /* border: 1px solid green; */
+    /* box-shadow: 2px 2px 5px goldenrod; */
+}
+
+.gcard{
+    /* border: 30px solid white; */
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.gcard p{
+    margin: 0px;
+}
+
+.giobtn{
+    font-size: 0.7rem;
+    border: 1px solid gray;
+    padding: 0 10px;
+}
