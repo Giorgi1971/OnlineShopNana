@@ -28,7 +28,50 @@
     margin-bottom: 30px;
 }
 
-.gcard p{
+.salecard img{
+height: 150px;
+}
+
+.mainsalecard{
+    margin: auto;
+    overflow: hidden;
+    background-color: black;
+    height: 500px;
+    text-align: center;
+}
+
+.mainsalecard button{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 7px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 40px;
+    /* margin-bottom: 60px; */
+}
+
+.salecard{
+    /* border: 30px solid white; */
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.salecard button{
+    border: none;
+    font-size: 0.6rem;
+    padding: 5px;
+}
+
+
+.popular{
+    border: 2px solid salmon;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.gcard p, .salecard p {
     margin: 0px;
 }
 
@@ -37,3 +80,34 @@
     border: 1px solid gray;
     padding: 0 10px;
 }
+
+.ligiotext{
+    padding: 0 50px;
+}
+
+.livechat{
+    float: right;
+    font-weight: bolder;
+    background-color:slategray;
+    color: black;
+    border: none;
+    padding: 10px 50px;
+
+}
+.saleblack{
+    font-size: 0.5rem;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 3px 4px;
+}
+
+/* .saleblack{
+    font-size: 0.5rem;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 4px 7px;
+} */
