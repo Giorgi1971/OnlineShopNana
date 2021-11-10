@@ -66,11 +66,62 @@ height: 150px;
 }
 
 
+.popular1{
+    /* height: 300px; */
+    margin-bottom: 30px;
+}
+
+.popular2{
+    /* height: 300px; */
+    margin-bottom: 30px;
+    background-color: rgb(224, 224, 234);
+}
+
+
+.popular3{
+    margin-bottom: 30px;
+    background-color: rgb(205, 200, 197);
+}
+
+
+.popular4{
+    background-image: url("images/pop4.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: auto; /* Resize the background image to cover the entire container */
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-color: rgb(112, 228, 248);
+    /* background-color: #cccccc; Used if the image is unavailable */
+    /* height: 500px; You must set a specified height */
+  
+}
+
+.ttt{
+    width: 500px;
+    height: 300px;
+    border: 1px solid red;
+    background-image: url("p3.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:contain;
+
+}
+
+/* .popular4 img{
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+} */
+
+
 .popular{
-    border: 2px solid salmon;
+    background-color: orchid;
     height: 300px;
     margin-bottom: 30px;
 }
+
 .gcard p, .salecard p {
     margin: 0px;
 }
@@ -86,12 +137,12 @@ height: 150px;
 }
 
 .livechat{
-    float: right;
+    bottom: 20px;
     font-weight: bolder;
-    background-color:slategray;
-    color: black;
+    /* background-color:slategray; */
+    /* color: black; */
     border: none;
-    padding: 10px 50px;
+    padding: 5px 120px;
 
 }
 .saleblack{
@@ -102,7 +153,9 @@ height: 150px;
     border-radius: 3px;
     padding: 3px 4px;
 }
-
+.navbar a:hover{
+    color: orange!important;
+  }
 /* .saleblack{
     font-size: 0.5rem;
     font-weight: bold;
@@ -111,3 +164,12 @@ height: 150px;
     border-radius: 3px;
     padding: 4px 7px;
 } */
+
+.gfoot{
+    color: white;
+    padding-left: 150px;
+}
+
+footer span{
+    color: red;
+}
